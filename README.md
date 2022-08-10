@@ -1,3 +1,15 @@
 Summarizes a "My Org's Time Off" report from Workday into something I can grok. Download the output from workday into a `.xlsx` file.
 
-```python3 summary.py file.xlsx```
+To install dependencies:
+
+```pip3 install -r requirements.txt```
+
+Once you've got a downloaded file:
+
+```bash
+python3 summary.py file.xlsx
+|Name                   |Days off|
+----------------------------------
+|Jill                   |12.0    |
+|Bob                    |3.0     |
+```
