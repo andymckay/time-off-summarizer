@@ -7,7 +7,7 @@ To install dependencies:
 Once you've got a downloaded file:
 
 ```bash
-python3 summary.py file.xlsx
+python3 summary.py path-to-your-downloaded.xlsx
 |Name                   |Days off|
 ----------------------------------
 |Jill                   |12.0    |
